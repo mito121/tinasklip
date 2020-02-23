@@ -1,0 +1,43 @@
+/* Active slider */
+.active-slider{
+    border-bottom:2px solid white;
+    height:50px;
+    position:absolute;
+    transition:all 500ms !important;
+    z-index:-1;
+}
+nav ul li:nth-child(1).activeNavLink ~ .active-slider{
+    top: 5px;
+    left: 16px;
+    right: 498.797px;
+    bottom: 28px;
+    width: 68.5781px;
+}
+nav ul li:nth-child(2).activeNavLink ~ .active-slider{
+    top: 5px;
+    left: 114.578px;
+    right: 392.297px;
+    bottom: 28px;
+    width: 76.5px;
+}
+nav ul li:nth-child(3).activeNavLink ~ .active-slider{
+    top: 5px;
+    left: 221.078px;
+    right: 216.625px;
+    bottom: 28px;
+    width: 145.672px;
+}
+nav ul li:nth-child(4).activeNavLink ~ .active-slider{
+    top: 5px;
+    left: 396.75px;
+    right: 126.547px;
+    bottom: 28px;
+    width: 60.0781px;
+}
+nav ul li:nth-child(5).activeNavLink ~ .active-slider{
+    top: 5px;
+    left: 486.828px;
+    right: 24px;
+    bottom: 28px;
+    width: 72.5469px;
+}
